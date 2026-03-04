@@ -1,7 +1,7 @@
 # João Pedro Espanhol
 **Systems Developer | Wireless Communications & Embedded Systems**
 
-Dedicated to bridging the gap between low-level implementation and high-level protocol analysis. My work focuses on real-world validation of communication systems and resilient network architectures.
+Systems developer focused on bridging the gap between low-level embedded software and high-level protocol analysis. My work combines empirical validation of communication links with the development of resilient, scalable architectures.
 
 ---
 
@@ -31,11 +31,14 @@ A scalable management platform designed to automate military routines and optimi
 
 ---
 
-## 🎓 Research Interests
-I am currently preparing for graduate studies with a focus on:
-* **Next-Gen Networks (6G)** and Distributed Architectures.
-* **Protocol Resilience** in challenging environments.
-* **Empirical Performance Modeling** of wireless links.
+## 🔬 Research Interests
+
+Currently focusing on the intersection of embedded systems and communication theory, aiming to contribute to the evolution of next-generation network resilience.
+
+* **Empirical Performance Modeling:** Characterizing wireless link behavior (Path Loss, Shadowing) in real-world environments to validate theoretical models.
+* **Next-Gen Networks (6G):** Exploring architectures for ultra-reliable and low-latency communications (URLLC).
+* **Aerial Communication (A2G):** Optimizing protocol stacks for UAV-to-Ground and UAV-to-UAV links in challenging environments.
+* **Resilient Distributed Systems:** Designing software architectures that maintain operational integrity in resource-constrained or high-interference scenarios.
 
 ---
 
