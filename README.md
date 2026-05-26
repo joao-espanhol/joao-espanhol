@@ -1,5 +1,5 @@
 # João Pedro Espanhol
-**Systems Developer | Wireless Communications & Embedded Systems**
+**Backend Developer**
 
 Systems developer focused on bridging the gap between low-level embedded software and high-level protocol analysis. My work combines empirical validation of communication links with the development of resilient, scalable architectures.
 
@@ -9,25 +9,25 @@ Systems developer focused on bridging the gap between low-level embedded softwar
 
 | Domain | Technologies |
 | :--- | :--- |
+| **Software Engineering** | Python (Automation), Django, Linux (DevOps/Env), Git |
 | **Wireless & Networking** | LoRa, GPS Telemetry, RSSI/PDR Analysis, Protocol Optimization, 6G Research |
 | **Embedded Systems** | C/C++, ESP32, Arduino, Bare-metal concepts, Assembly (Learning) |
-| **Software Engineering** | Python (Automation), Django, Linux (DevOps/Env), Git |
 | **IT Infrastructure** | GLPI, Asset Management, Technical Documentation |
 
 ---
 
 ## 🚀 Key Projects
 
-### [Wireless Link Evaluation](https://github.com/joao-espanhol/LoRa_UAV)
-Empirical analysis of LoRa signal behavior in Air-to-Ground (A2G) links under varying Line of Sight (LOS) and Non-Line of Sight (NLOS) conditions.
-* **Focus:** Real-time metric collection (RSSI, SNR, PDR) and link budget validation.
-* **Stack:** C++, LoRa (P2P), ESP32, Python (Data Analysis).
-
 ### [Systems & Automation](https://github.com/joao-espanhol/quartel_v2)
 A scalable management platform designed to automate military routines and optimize resource allocation.
 * **Core Feature:** Meal Management System (Arranchamento) developed to synchronize kitchen logistics with personnel demand, aiming to reduce food waste and operational costs.
 * **Impact:** Engineered as a production-ready MVP, deployed on local servers to validate system architecture and security.
 * **Stack:** Python, Django, PostgreSQL, Linux Server Management.
+
+### [Wireless Link Evaluation](https://github.com/joao-espanhol/LoRa_UAV)
+Empirical analysis of LoRa signal behavior in Air-to-Ground (A2G) links under varying Line of Sight (LOS) and Non-Line of Sight (NLOS) conditions.
+* **Focus:** Real-time metric collection (RSSI, SNR, PDR) and link budget validation.
+* **Stack:** C++, LoRa (P2P), ESP32, Python (Data Analysis).
 
 ---
 
