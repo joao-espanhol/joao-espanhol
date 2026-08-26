@@ -38,13 +38,21 @@ production environment inside a military unit — used daily by real users.
 - Automated administrative and logistics workflows, replacing manual processes.
 - **Stack:** Python, Django, PostgreSQL, Linux.
 
-### [IoT / LoRa Field Research](https://github.com/joao-espanhol/LoRa_UAV)
-Empirical analysis of LoRa signal behavior in tactical environments.
-Results published at SIGE/ITA (2025).
+### [LoRa Telemetry Pipeline](https://github.com/joao-espanhol/LoRa_UAV)
 
-- Analyzed RSSI, packet loss, and topographic interference across 4 km.
-- **Stack:** C++, ESP32, LoRa, Python (statistical analysis).
+End-to-end telemetry chain for tactical communications research: embedded
+transmitter, multiple concurrent receiving stations, and a ground ingestion
+server. Basis for two published field studies.
 
+- **Ingestion:** threaded TCP server handling up to three concurrent stations.
+  Buffers and frames the byte stream rather than assuming one recv per message;
+  validates every record field by field; routes failures to an error log with
+  the reason attached instead of dropping them.
+- **Liveness:** per-station heartbeat with timeout and connection cleanup.
+- **Findings:** obstruction dominates distance for ground links (SIGE/ITA 2025);
+  elevating the receiver on a UAV extended the operational link to 6.3 km,
+  58% beyond the ground baseline (CoBICET 2026).
+- **Stack:** Python, C++, ESP32, LoRa, pandas.
 ---
 
 ## 📫 Connect
